@@ -1,6 +1,6 @@
 Пишем скрипт test.sh который в приложении. 
-
 crontab -e
+
 0 * * * * /home/vagrant/test.sh
 
 и получаем вот такой вывод в /var/mail/root
@@ -11,7 +11,7 @@ Return-Path: <root@nginx.localdomain>
 X-Original-To: root@localhost
 Delivered-To: root@localhost.localdomain
 Received: by nginx.localdomain (Postfix, from userid 0)
-        id E771E408AF27; Mon, 30 Jan 2023 21:00:01 +0000 (UTC)
+id E771E408AF27; Mon, 30 Jan 2023 21:00:01 +0000 (UTC)
 Date: Mon, 30 Jan 2023 21:00:01 +0000
 To: root@localhost.localdomain
 Subject: NGINX Log Info
@@ -24,7 +24,7 @@ From: root@nginx.localdomain (root)
 
 Данные за период:
 
-    30Jan2023155101-30Jan2023162916
+30Jan2023155101-30Jan2023162916
 
 Часто запрашиваемые адреса:
       6 192.168.88.1
